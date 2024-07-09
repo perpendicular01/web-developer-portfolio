@@ -30,18 +30,30 @@
 
 }
 
+/* header style*/
+.header{
+    background: rgb(255, 248, 243);
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    /* background-image: url(../images/header_bg.png); */
+    background-position: top left, bottom right;
+
+}
+
+
 /* nav styles */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0ch 200px;
+    margin: 0px 200px;
 }
 
 
 .nav-title{
     font-size: 45px;
     font-weight: 800;
+    margin-left: 23px;
 }
 
 nav ul{
@@ -57,4 +69,59 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner-content{
+    max-width: 585px;
+    margin-left: 230px;
+
+}
+
+.banner-hi{
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.banner-title{
+    font-size: 85px;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.banner-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.contact-btn{
+    margin-left: 30px;
+    background-color: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px, 35px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+    
+    
+}
+
+.banner-image{
+
 }
