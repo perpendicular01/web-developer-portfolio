@@ -28,7 +28,7 @@
     color: white;
     border: none;
     border-radius: 5px;
-    width: 150px;
+    width: 185px;
     height: 64px
 }
 
@@ -109,10 +109,16 @@ nav li a {
     font-weight: 400;
     text-align: left;
 }
+.dc{
+    display: flex;
+    gap: 20px;
+}
 
 .contact-btn {
-    margin-left: 30px;
-    background-color: none;
+  
+    background-color: rgb(255, 248, 243);
+   
+    
     font-size: 20px;
     font-weight: 700;
     padding: 18px, 35px;
@@ -122,6 +128,10 @@ nav li a {
     height: 64px;
 
 
+}
+
+.contact-div{
+    border: 1px solid rgb(253, 110, 10);
 }
 
 
@@ -213,7 +223,7 @@ main {
 
 /* resume */
 
-.resume{
+.resume {
     margin-bottom: 113px;
 }
 
@@ -256,7 +266,71 @@ main {
     font-size: 16px;
 }
 
-.resume-btn{
+.resume-btn {
     margin-top: 50px;
     text-align: center;
+}
+
+
+
+/*  foooter */
+
+.footer {
+    display: flex;
+    padding: 130px 230px;
+    gap: 150px;
+}
+
+.connect {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.connect-des {
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.connect-img {
+    display: flex;
+    gap: 25px;
+}
+
+.inbox {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    text-align: left;
+}
+
+/* .footer-column{
+    width: 50%;
+} */
+
+footer input[type="text"],
+footer input[type="email"] {
+    height: 40px;
+    width: 461px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 10px 30px;
+    display: block;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+}
+
+footer textarea {
+    height: 120px;
+    width: 461px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 18px 30px;
+    display: block;
+    margin-bottom: 24px;
+    border: none;
 }
